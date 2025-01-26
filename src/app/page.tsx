@@ -7,7 +7,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className='m-4'>
-      <SignedOut>
+      Home page
+      {/*Example*/}
+      {/* <SignedOut>
         <SignInButton mode='modal'>
           <Button>Sign in</Button>
         </SignInButton>
@@ -16,8 +18,8 @@ export default function Home() {
         <UserButton />
       </SignedIn>
       <Button variant={"secondary"}> Click me </Button>
-      <ModeToggle />
-      {/* <ModeDropdown /> */}
+      <ModeToggle /> 
+       <ModeDropdown /> */}
     </div>
   );
 }
